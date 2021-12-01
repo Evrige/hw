@@ -6,5 +6,4 @@ while (isNaN(firstNum) || firstNum == "" || firstNum == null) firstNum = +prompt
 while (isNaN(secondNum) || secondNum == "" || secondNum == null) secondNum = +prompt("Введите второе число");
 
 const result = firstNum + secondNum;
-console.log(firstNum, secondNum);
 alert(`Сумма чисел: ${firstNum} и ${secondNum} равна = ${result}`);
