@@ -10,4 +10,4 @@ function askUser() {
 		console.log(arr);
 	}
 }
-askUser();
+setTimeout(function () { askUser() }, 5000);
