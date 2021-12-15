@@ -2,7 +2,6 @@ const string = "Lorem ipsum dolor, bitch, sit amet SuCk consectetur fuck adipisi
 
 function censorship(line) {
 	let arrcensor = ["suck", "fuck", "bitch"];
-	let time = line.toLowerCase();
 	for (let i = 0; i < arrcensor.length; i++) {
 		let regexp = new RegExp(`${arrcensor[i]}`, 'i')
 		line = line.replace(regexp, "****");
