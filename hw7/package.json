@@ -1,0 +1,22 @@
+{
+  "name": "fe-pro-capitalize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rammfall-edu/fe-pro-capitalize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rammfall-edu/fe-pro-capitalize/issues"
+  },
+  "homepage": "https://github.com/rammfall-edu/fe-pro-capitalize#readme",
+  "dependencies": {
+    "jest": "^27.4.5"
+  }
+}
